@@ -74,8 +74,10 @@ This is the main architecture of Faster R-CNN that the authors proposed. Now, le
 4. **RoI Pooling**: Converts proposed regions into fixed-size outputs.
 5. **Fully Connected Layers**: Classifies the objects and refines the bounding boxes.
 6. **Final Output**: The bounding boxes and class labels for each detected object.
+---
 
-Environment Setup:
+### **Environment Setup:**
+
     py -3.10 -m venv myvenv
     
     myvenv\Scripts\activate    
